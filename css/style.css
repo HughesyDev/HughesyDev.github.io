@@ -5,35 +5,39 @@
 } 
 
 /* comments are like this */
-
-.section1 {
-    height: 200px;
-    width: 80%;
-    padding: 20px;
-    margin: 50px;
-    border: 10px solid black;
-}
-/*
-.div1 {
-    height: 100px;
-    width: 100px;
-    padding: 20px;
-    margin: 50px;
-    border: 10px solid red;
+h1 {
+    font-size: 1.5rem;
 }
 
-.section2 {
-    height: 100px;
-    width: 100px;
-    padding: 20px;
-    margin: 50px;
-    border: 10px solid black;
+h1 strong {
+    font-size: 2.5rem;
 }
 
-.div2 {
-    height: 100px;
-    width: 100px;
-    padding: 20px;
-    margin: 50px;
-    border: 10px solid red;
+section {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
 }
+
+body {
+    max-width: 80%;
+}
+
+.mainbox {
+    width: 90%
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 1rem;
+  }
+  .grid > div {
+    background: #EDE7F6;
+    padding: 1.5rem;
+    border-radius: 1rem;
+  }
+  body {
+    margin: 2rem;
+    font: 12px system-ui;
+  }
