@@ -2,11 +2,38 @@
 *::before,
 *::after {
     box-sizing: border-box;
+} 
+
+/* comments are like this */
+
+.section1 {
+    height: 200px;
+    width: 80%;
+    padding: 20px;
+    margin: 50px;
+    border: 10px solid black;
+}
+/*
+.div1 {
+    height: 100px;
+    width: 100px;
+    padding: 20px;
+    margin: 50px;
+    border: 10px solid red;
 }
 
-:root {
-    --ff-primary: ;
-    --ff-secondary: ;
+.section2 {
+    height: 100px;
+    width: 100px;
+    padding: 20px;
+    margin: 50px;
+    border: 10px solid black;
 }
 
-font-family: 'Montserrat', sans-serif;
+.div2 {
+    height: 100px;
+    width: 100px;
+    padding: 20px;
+    margin: 50px;
+    border: 10px solid red;
+}
