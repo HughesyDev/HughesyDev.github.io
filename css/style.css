@@ -1,0 +1,12 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+:root {
+    --ff-primary: ;
+    --ff-secondary: ;
+}
+
+font-family: 'Montserrat', sans-serif;
