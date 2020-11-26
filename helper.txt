@@ -1,6 +1,12 @@
 ########### 
-make the main body div take up like 80% until x px wide
-eventually it's just a grey background on the body with space to the right.
+
+1. When access site, transition into the image
+2. Then transition the main content body
+3. Refine the Project Cards until you're happy - refer to UI site (font-weight etc.)
+4. Refine headings
+5. Add modal box to each Project Card going into more detail.
+6. Add presentation link to the IDS project.
+7. Have top title go to block on small screen.
 
 Drop shadow on the project cards to give them texture/make them pop
 
@@ -9,8 +15,8 @@ Drop shadow on the project cards to give them texture/make them pop
 Background image: apprently png best?
 low reso image so page loads fast
 
-when access site, transition into the image
-Then transition the main content bodySet opacity so you can slightly see the image through body
+
+
 Accent colours for key bits?
 
 Think of colour scheme

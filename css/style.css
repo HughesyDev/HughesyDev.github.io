@@ -6,6 +6,11 @@
 
 /* TYPOGRAPHY */
 
+h1, h2, h3, p {
+    font-family: 'PT Mono', sans-serif;
+    opacity: 0.9;
+}
+
 h1 {
     font-size: 1.5rem;
 }
@@ -14,8 +19,12 @@ h1 strong {
     font-size: 2.5rem;
 }
 
-h1, h2, h3, p {
-    font-family: 'PT Mono', sans-serif;
+.cvlink {
+    display: inline;
+}
+
+.skillsrow {
+    margin: 0;
 }
 
 body {
@@ -29,13 +38,32 @@ body {
 }
 
 .bg {
-    /* The image used */
     background-image: url("../img/test1.jpg");
     height: 100%; 
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
+.bg {
+    animation: fadeIn ease 1.5s;
+    -webkit-animation: fadeIn ease 1s;
+    -moz-animation: fadeIn ease 1s;
+    -o-animation: fadeIn ease 1s;
+  }
+  @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
 
 section {
     padding: 0px;
@@ -43,7 +71,7 @@ section {
     border: 0px;
 }
  
-.mainbox { /* Main body box inside the page*/
+.mainbox { 
     width: 90%;
     position: relative;
     background-color: #F0F3F7;
@@ -58,6 +86,10 @@ section {
 /* SECTION STYLING */
 
 .intro-section--header {
+}
+
+.intro-section--summary-text {
+    font-weight: 600;
 }
 
 .skills-list {
@@ -101,7 +133,7 @@ section {
     font-weight: bolder;
 }
 
-.project-card--subtitle, .project-card--summary {
+.project-card--subtitle, .project-card--summary, .project-card--repolink {
     text-align: left;
     margin: 0;
     padding-left: 1rem;
@@ -115,12 +147,26 @@ section {
     margin-right: 10px;
 }
 
-.project-card--collapsible-text { /* Project Card content*/
-    color: rgb(65, 212, 20);
-    padding-top: 0;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-    
-}
+/* Fade-in Animation*/
+
+.fade-in {
+    animation: fadeIn ease 1s;
+    -webkit-animation: fadeIn ease 1s;
+    -moz-animation: fadeIn ease 1s;
+  }
+  @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:0.9;}
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:0.9;}
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:0.9;}
+  }
+
+
