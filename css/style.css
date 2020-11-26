@@ -1,10 +1,11 @@
-*,
-*::before,
-*::after {
+/* */
+
+*, *::before, *::after {
     box-sizing: border-box;
 } 
 
-/* comments are like this */
+/* TYPOGRAPHY */
+
 h1 {
     font-size: 1.5rem;
 }
@@ -13,31 +14,113 @@ h1 strong {
     font-size: 2.5rem;
 }
 
+h1, h2, h3, p {
+    font-family: 'PT Mono', sans-serif;
+}
+
+body {
+    height: 100%;
+    max-width: 95%;
+    width: 800px;
+    margin: 10px;
+    padding-top: 1rem;
+    font: 12px system-ui;
+    line-height: 1.6;
+}
+
+.bg {
+    /* The image used */
+    background-image: url("../img/test1.jpg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 section {
     padding: 0px;
     margin: 0px;
     border: 0px;
 }
-
-body {
-    max-width: 80%;
-}
-
-.mainbox {
-    width: 90%
-}
-
-.grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    grid-gap: 1rem;
-  }
-  .grid > div {
-    background: #EDE7F6;
-    padding: 1.5rem;
+ 
+.mainbox { /* Main body box inside the page*/
+    width: 90%;
+    position: relative;
+    background-color: #F0F3F7;
+    padding: 1rem;
     border-radius: 1rem;
-  }
-  body {
-    margin: 2rem;
-    font: 12px system-ui;
-  }
+    margin: 0 auto;
+    border: 50px;
+    box-shadow: 3px 3px 3px #111;
+    opacity: .9;
+}
+
+/* SECTION STYLING */
+
+.intro-section--header {
+}
+
+.skills-list {
+    list-style-type: none;
+}
+
+.contact-list {
+    list-style-type: square;
+}
+
+
+/* PROJECT CARD */
+
+.grid { 
+    display: grid; 
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: .5rem;
+}
+
+.grid > div { /* Project Cards */
+    background: rgb(255,255,255);
+    padding: 0rem;
+    padding-bottom: 0;
+    border-radius: 1rem;
+    box-shadow: 0 2px 6px 0;
+}
+
+.project-card--div {
+    background-color: rgb(255,255,255);
+    padding-right: 10px;
+    margin-right: 10px;
+}
+
+.project-card--title {
+    margin: 0 auto;
+    padding-top: 1rem;
+    padding-bottom: .25rem;
+}
+
+.project-card--subtitle {
+    font-weight: bolder;
+}
+
+.project-card--subtitle, .project-card--summary {
+    text-align: left;
+    margin: 0;
+    padding-left: 1rem;
+}
+
+.project-card--summary {
+    text-align: left;
+    font-weight: 500;
+    padding-top: 0;
+    padding-right: 10px;
+    margin-right: 10px;
+}
+
+.project-card--collapsible-text { /* Project Card content*/
+    color: rgb(65, 212, 20);
+    padding-top: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
