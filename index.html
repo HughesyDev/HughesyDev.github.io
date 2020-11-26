@@ -11,9 +11,9 @@
 
     </head>
 
-    <body class="fade-in bg">
+    <body class="background-fade-in bg">
         
-        <div class="mainbox">
+        <div class="mainbox mainbox-fade-in">
 
             <!--- INTRO / BIO AREA--->
 
@@ -28,7 +28,7 @@
             <section class="intro-section--summary">
 
                 <div>
-                    <p class="intro-section--summary-text">Recent graduate from a <a target="_blank" href="https://uk.generation.org/manchester/data-engineering/">Junior Data Engineering bootcamp</a>. Dedicated to self-improvement and studying the data engineering ecosystem. First-hand experience creating ETL pipelines on the Amazon Web Services cloud platform, and eager to broaden my knowledge through personal projects.</p>
+                    <p class="intro-section--summary-text">Recent graduate from a <a target="_blank" href="https://uk.generation.org/manchester/data-engineering/">Junior Data Engineering bootcamp</a>. Dedicated to self-improvement and studying the data engineering technology ecosystem. First-hand experience creating ETL pipelines on the Amazon Web Services cloud platform, and eager to broaden my knowledge through personal projects.</p>
                     <h3 class="cvlink"><a target="_blank" href="hughes_jack_CV_anonymous.pdf">CV Link</a></h3> <Span>[PDF]</Span>
                 </div>
 
@@ -57,8 +57,13 @@
                     <h2 class="project-card--title">Infinite-Data System</h3>
                     <h4 class="project-card--subtitle">Bootcamp: Capstone group project</h4>
                     <p  class="project-card--summary">Cloud-native ETL pipeline on AWS designed to automatically generate visualisations from unusable CSV data. Written in Python and PostgreSQL.</p>
-                    <p  class="project-card--repolink"><a href="#">Link to project presentation</a></p>
-                    <p  class="project-card--collapsible-text"></p>
+                    <p  class="project-card--repolink"><a href="#0">Link to project presentation</a></p>
+                    <input type="checkbox" id="toggle">
+                        <label for="toggle">More Info</label>
+                        <dialog >
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa nihil dolore similique quis qui ad blanditiis ex eum!</p>
+                            <label for="toggle">close overlay</label>
+                        </dialog>
                 </div>
 
                 <div class="grid project-card--div">
@@ -66,7 +71,12 @@
                     <h4 class="project-card--subtitle">Bootcamp: Individual mini-project</h4>
                     <p  class="project-card--summary">Python app with MySQL interaction designed to capture drink orders, persist drink preferences and round details</p>
                     <p  class="project-card--repolink"><a target="_blank" href="https://github.com/HughesyDev/SpaceBar">Link to repo</a></p>
-                    <p  class="project-card--collapsible-text"></p>
+                    <input type="checkbox" id="toggle">
+                        <label for="toggle">More Info</label>
+                        <dialog >
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa nihil dolore similique quis qui ad blanditiis ex eum!</p>
+                            <label for="toggle">close overlay</label>
+                        </dialog>
                 </div>
             
             </section>

@@ -7,6 +7,8 @@
 5. Add modal box to each Project Card going into more detail.
 6. Add presentation link to the IDS project.
 7. Have top title go to block on small screen.
+8. Testimonials?
+-   "I worked with Jack doing blah blah, his positivity and clear-headed approach helped blah blah."
 
 Drop shadow on the project cards to give them texture/make them pop
 
@@ -19,7 +21,7 @@ low reso image so page loads fast
 
 Accent colours for key bits?
 
-Think of colour scheme
+Look up gray-scaley colour schemes
 - Primary
 - Secondary
 - Accent
