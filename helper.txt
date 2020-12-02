@@ -10,6 +10,14 @@
 8. Testimonials?
 -   "I worked with Jack doing blah blah, his positivity and clear-headed approach helped blah blah."
 
+CTA / "Call to action" that tells the user to do x (i.e. to employ you)
+
+#################
+#################
+LOOK INTO FLEXBOX
+################# - designed to be used WITH Grid?
+#################
+
 Drop shadow on the project cards to give them texture/make them pop
 
 
